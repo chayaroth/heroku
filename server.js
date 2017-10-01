@@ -12,3 +12,5 @@ app.get('/', function (req, res) {
 app.get('/:name?', function (req, res) {
     res.render('firstpage',{name:req.params.name})
 });
+
+    
